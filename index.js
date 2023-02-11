@@ -225,7 +225,7 @@ client.on("ready", () => {
 
   }, 60 * 1000 );
 
-  console.log("bot is ready");
+  console.log("bot is ready!");
 
 });
 
