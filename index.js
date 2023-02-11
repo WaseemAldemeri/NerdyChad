@@ -1,6 +1,3 @@
-//make database and connect it with this file
-//detect user_id when joining the study voice channel and add the use to the database or update it if it exists
-//retirve user data and present it when typing a command
 
 const sqlite3 = require('sqlite3').verbose();
 
@@ -228,7 +225,7 @@ client.on("ready", () => {
 
   }, 60 * 1000 );
 
-  console.log("I am ready");
+  console.log("bot is ready");
 
 });
 
